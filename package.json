@@ -1,0 +1,22 @@
+{
+  "name": "18-intro-to-socket-and-intro-to-node",
+  "version": "1.0.0",
+  "description": "Node js can be used to run Javascript outside of a web browser.\r Express.js works with node js as a mean to run a simple web server\r A webserver is hardware or software or both that can be store, process, and deliver website content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.22.3",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
